@@ -19,4 +19,4 @@ STEP 3:
 Open the R-script in RStudio. Type "Control-F" to open a search menu. In the "Find" box, type "Sbox". In the "Replace" box, type "SAMPLING UNIT" according to your column heading in your "radiocarbon_data.csv" file.
 
 STEP 4 (Start here if you're using the original dataset):
-Open the R-script in RStudio. Beginning at the top of the script, click "run" for each line. Note that groups of lines with no spaces can be highlighted run together, but the entire script cannot be highlighted and run. Be sure to install all packages listed in the preamble of the script.  If you encounter any problems, please ensure that your column headings match those listed in Step 2.
+Open the R-script in RStudio. Beginning at the top of the script, click the "source" button to run the whole script in order. You may click "run" for each line. Note that groups of lines with no spaces can be highlighted run together, but the entire script cannot be highlighted and run. Be sure to install all packages listed in the preamble of the script.  If you encounter any problems, please ensure that your column headings match those listed in Step 2.
