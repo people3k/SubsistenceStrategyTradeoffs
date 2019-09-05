@@ -37,13 +37,6 @@ for(i in 1:length(unique(Directory$Sbox))){
 remove(nam)
 remove(i)
 
-cptcal <- calibrate(x = Sbox$date,  errors = Sbox$sd) #This calibrates the dates using the default intcal13
-Sboxbins <- binPrep(sites = Sbox$SiteID, ages = Sbox$date, h = 100) #This bins the values.
-Sboxspd <- spd(x=cptcal, timeRange=c(6000,300), spdnormalised = TRUE) #This produces normalized SPD values
-write.csv(Sboxspd,file = paste("Sbox TX.csv")) #This writes the SPD values to the working directory, allowing you to view them outside of R and pull them back in later.
-
-
-
 ##Calibration function for each hemisphere according to the different calibration curves
 north <- function(Sbox){
   cptcal <- calibrate(x = Sbox$date,  errors = Sbox$sd) #This calibrates the dates using the default intcal13
