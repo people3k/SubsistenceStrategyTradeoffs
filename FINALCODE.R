@@ -37,7 +37,6 @@ for(i in 1:length(unique(Directory$Sbox))){
 remove(nam)
 remove(i)
 
-Sbox<-read.csv("TARL.csv")
 cptcal <- calibrate(x = Sbox$date,  errors = Sbox$sd) #This calibrates the dates using the default intcal13
 Sboxbins <- binPrep(sites = Sbox$SiteID, ages = Sbox$date, h = 100) #This bins the values.
 Sboxspd <- spd(x=cptcal, timeRange=c(6000,300), spdnormalised = TRUE) #This produces normalized SPD values
