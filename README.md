@@ -1,6 +1,6 @@
 # SubsistenceStrategyTradeoffs
 
-To replicate workflow and analysis of Bird et al. "Subsistence Strategy Tradeoffs in Long-Term Population Stability Over the Past 6,000 Years." First, what the code does and does not do:
+To replicate workflow and analysis of Bird et al. "A first empirical analysis of population stability in North America using radiocarbon records." First, what the code does and does not do:
 
 The code is intended to be run with a csv of radiocarbon dates that includes several headings (lab number, sampling unit (heading SBox), conventional radiocarbon date, one sigma standard deviation, Country, Site, SiteID (generated in excel by sorting site alphabetically) and source). Any data can be input, but the headings and type of data within fit certain criteria. Radiocarbon_data.csv provides the information used for Bird et al.'s publication with locational information removed, as required by many SHPO's in the United States. 
 
